@@ -1,0 +1,34 @@
+package co.com.bancolombia.facade.impl;
+
+import java.util.List;
+
+import co.com.bancolombia.facade.IProducto;
+import co.com.bancolombia.modelo.Producto;
+
+public class ProductoImpl implements IProducto {
+
+	@Override
+	public Producto obtenerProducto(String codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardarProducto(Producto p) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Producto> obtenerProductos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Producto> obtenerProductos(boolean disponible) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

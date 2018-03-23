@@ -1,0 +1,12 @@
+package co.com.bancolombia.modelo;
+
+import java.util.Date;
+
+public class Producto {
+	private String codigo;
+	private String titulo;
+	private double precio;
+	private Date fechaRetorno;
+	private boolean disponible;
+
+}

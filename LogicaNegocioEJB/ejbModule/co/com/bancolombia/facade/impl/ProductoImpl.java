@@ -1,0 +1,55 @@
+package co.com.bancolombia.facade.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Local;
+import javax.ejb.Stateless;
+
+import co.com.bancolombia.facade.IProducto;
+import co.com.bancolombia.modelo.Producto;
+
+@Stateless
+@Local(IProducto.class)
+public class ProductoImpl implements IProducto {
+
+	private List<Producto> productos;
+	
+	public ProductoImpl() {
+		productos = new ArrayList<Producto>();
+		System.out.println("Entro al constructor");
+	}
+	
+	@Override
+	public Producto obtenerProducto(String codigo) {
+		for(Producto p: productos) {
+			if(codigo.equals(p.getCodigo())) {
+				return p;
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public void guardarProducto(Producto p) {
+		productos.add(p);
+	}
+
+	@Override
+	public List<Producto> obtenerProductos() {
+		return productos;
+	}
+
+	@Override
+	public List<Producto> obtenerProductos(boolean disponible) {
+		List<Producto> productosDisponibles = new ArrayList<Producto>();
+		for(Producto p: productos) {
+			if(p.isDisponible()) {
+				productosDisponibles.add(p);
+			}
+		}
+		return productosDisponibles;
+	}
+
+}
+ 

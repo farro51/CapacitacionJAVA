@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <archive targetInArchive="/LogicaNegocioEJB.jar">
+        <dir sourceOnDisk="D:\workspace\Java\Ejercico1\LogicaNegocioEJB\build\classes" targetInArchive="/"/>
+    </archive>
+    <archive targetInArchive="/RentasWeb.war">
+        <dir sourceOnDisk="D:\workspace\Java\Ejercico1\RentasWeb\WebContent" targetInArchive="/"/>
+    </archive>
+    <dir sourceOnDisk="D:\workspace\Java\Ejercico1\ModeloRentaEar" targetInArchive="/"/>
+</archive>

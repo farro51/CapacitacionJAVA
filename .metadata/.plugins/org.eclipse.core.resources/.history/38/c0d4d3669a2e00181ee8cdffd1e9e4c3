@@ -1,0 +1,5 @@
+package co.com.bancolombia.facade;
+
+public interface IProducto {
+
+}

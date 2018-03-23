@@ -1,0 +1,9 @@
+package co.com.bancolombia.modelo;
+
+public class Cliente extends Persona {
+	private Date fechaAfiliacion;
+	private boolean activo;
+	private double debito;
+	private List<Producto> productos;
+
+}

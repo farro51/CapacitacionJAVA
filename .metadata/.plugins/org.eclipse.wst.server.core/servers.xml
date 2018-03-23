@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server Liberty at localhost" last-auto-publish="2" looseConfig="true" name="WebSphere Application Server Liberty at localhost" runtime-id="WebSphere Application Server Liberty" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="server4" serverType="libertyServer" start-timeout="60" stop-timeout="15" timestamp="5" userDirId="WebSphere Application Server Liberty">
+    <list key="modules" value0="ModeloRentaEar::org.eclipse.jst.jee.server:ModeloRentaEar::jst.ear::7.0"/>
+  </server>
+</servers>

@@ -1,0 +1,5 @@
+package co.com.bancolombia.modelo;
+
+public class Cliente extends Persona {
+
+}
